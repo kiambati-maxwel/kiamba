@@ -391,6 +391,11 @@ strong {
   }
 }
 
+.about-text {
+  text-align: center;
+  margin-left: 10%;
+}
+
 .dark-mode {
   background: $dark-mode-color;
   .navbar-light .navbar-nav .nav-link {
