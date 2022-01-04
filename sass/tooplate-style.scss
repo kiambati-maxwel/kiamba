@@ -36,6 +36,9 @@ body {
   padding: 8rem 0;
 }
 
+.download-btn {
+  border-bottom: solid 1px $main-color;
+}
 .contact h3 {
   margin-left: 20%;
 }
@@ -72,6 +75,11 @@ a {
 }
 .info-paragraph-width {
   //   width: 150%;
+  text-align: left;
+  font-size: 1.5em;
+  line-height: calc(1ex / 0.32);
+  margin: calc(1ex / 0.32) 0;
+  // border: solid 1px red;
 }
 
 .navbar-brand {
@@ -79,7 +87,7 @@ a {
     font-size: 40px;
   }
 }
-
+a
 // TYPOGRAPHY
 p {
   font-size: $body-font-size;
@@ -148,6 +156,8 @@ strong {
   position: relative;
   width: 180%;
   margin-top: -2.5em;
+  // border: solid 1px blue;
+  text-align: left;
 }
 
 .animated-info {
@@ -162,6 +172,11 @@ strong {
   color: $main-color;
 }
 
+.about-image {
+  // border: solid blueviolet 2px;
+  margin-top: -3em;
+  margin-left: 4.5em;
+}
 .animated-item {
   font-size: 32px;
   line-height: inherit;
@@ -391,9 +406,11 @@ strong {
   }
 }
 
+// the whole about part
 .about-text {
   text-align: center;
-  margin-left: 10%;
+  margin-left: 0.5em;
+  // border: solid 1px green;
 }
 
 .dark-mode {

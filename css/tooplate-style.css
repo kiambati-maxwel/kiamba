@@ -8,6 +8,10 @@ body {
   padding: 8rem 0;
 }
 
+.download-btn {
+  border-bottom: solid 1px #ffc200;
+}
+
 .contact h3 {
   margin-left: 20%;
 }
@@ -43,11 +47,18 @@ a:hover {
   color: #ffc200 !important;
 }
 
+.info-paragraph-width {
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 3.125ex;
+  margin: 3.125ex 0;
+}
+
 .navbar-brand .uil {
   font-size: 40px;
 }
 
-p {
+a p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
@@ -112,6 +123,7 @@ strong {
   position: relative;
   width: 180%;
   margin-top: -2.5em;
+  text-align: left;
 }
 
 .animated-info {
@@ -124,6 +136,11 @@ strong {
 
 .animated-item {
   color: #ffc200;
+}
+
+.about-image {
+  margin-top: -3em;
+  margin-left: 4.5em;
 }
 
 .animated-item {
@@ -330,6 +347,11 @@ strong {
   content: "\eb65";
   font-size: 30px;
   color: #ffffff;
+}
+
+.about-text {
+  text-align: center;
+  margin-left: 0.5em;
 }
 
 .dark-mode {

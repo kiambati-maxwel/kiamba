@@ -1,6 +1,7 @@
 .container-skills {
   margin: 0 auto;
-  margin-left: 13%;
+  /* border: solid 1px pink; */
+  margin-left: 20%;
 }
 .container-skills h2 {
   /* text-align: center; */
